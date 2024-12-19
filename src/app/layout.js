@@ -3,7 +3,6 @@ import "./globals.css";
 // import { ConnectionProvider } from "@/context/ConnectionProvider";
 import { Navbar } from "@/components/Navbar";
 import { ConnectionStatus } from "@/components/ConnectionStatus";
-import HeaderComp from "@/components/ui/HeaderComp";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -1,11 +1,7 @@
 import { ResourceMap } from "@/components/ResourceMap";
 import { EmergencyActions } from "@/components/EmergencyActions";
-import {communityhome} from "@/components/ui/communityhome";
-import {emergencytoolkit} from "@/components/ui/emergencytoolkit";
-import {VolunteerForm,SeekHelpForm} from "@/components/ui/vounteerandhelp";
-import {Alert, AlertDescription} from "@/components/ui/alert";
-import {login} from "@/components/ui/login";
 import {Hero} from "@/components/ui/Hero";
+
 
 export default function Home() {
 	return (
@@ -19,9 +15,10 @@ export default function Home() {
 					informed during emergencies - even without internet connectivity.All you need is Bluetooth connectivity or a wifi direct
 				</p>
 			</section>
+			<Hero />
 			<ResourceMap />
 			<EmergencyActions />
-			
+
 		</div>
 	);
 }

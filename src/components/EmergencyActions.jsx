@@ -1,3 +1,5 @@
+import { useConnection } from "@/hooks/useConnection";
+
 export function EmergencyActions() {
 	const { connectionMode, broadcastToPeers } = useConnection();
 	const [activeAlert, setActiveAlert] = useState(null);

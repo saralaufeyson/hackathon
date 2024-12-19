@@ -90,7 +90,7 @@ async function initializePeerConnection() {
 }
 
 // Main hook for managing connections
-export default function useConnection() {
+const useConnection = () => {
 	const connectionState = useConnectionStore();
 
 	// Initialize all necessary connections and listeners
@@ -240,4 +240,6 @@ export default function useConnection() {
 		broadcastToPeers,
 		connectToPeer,
 	};
-}
+};
+
+export default useConnection;

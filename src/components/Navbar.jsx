@@ -1,3 +1,4 @@
+"use client";
 import useConnection from "@/hooks/useConnection";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";

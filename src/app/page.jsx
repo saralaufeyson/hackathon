@@ -1,7 +1,7 @@
 "use client";
-import React, { useState } from "react";
 import { X } from "lucide-react";
-import { Card } from "@/components/ui/card";
+import { useState } from "react";
+import { Card } from "../components/ui/card";
 
 // Rest of the code stays exactly the same, starting from disasterData array...
 const disasterData = [
